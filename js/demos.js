@@ -357,6 +357,6 @@ define([], function () {
   }
 
   return [
-    free, freeWithRemote, upstreamChanges, rewrittenHistory, revert, cherryPick
+    upstreamChanges
   ]
 })
