@@ -102,30 +102,6 @@ function(_yargs, d3, demos) {
       cBoxContainer = container.append('div')
         .classed('control-box', true);
 
-      demos.forEach(function (demo) {
-        var opt = selector.append('option')
-          .text(demo.title)
-          .attr('value', demo.key)
-        if (window.location.hash === ('#' + demo.key)) {
-          opt.attr('selected', 'selected')
-        }
-      })
-
-      selector.on('change', function () {
-        if (!confirm('This will erase your current progress. Continue?')) {
-          d3.event.preventDefault()
-          d3.event.stopPropagation()
-          selector.node().value = window.location.hash.replace(/^#/, '') || demos[0].key
-          return false
-        }
-        var currentDemo = window.location.hash
-        var sel = selector.node()
-        var newDemo = sel.options[sel.selectedIndex].value
-        if (('#' + newDemo) !== currentDemo) {
-          window.location.hash = newDemo
-        }
-      })
-
       log = cBoxContainer.append('div')
         .classed('log', true);
 
