@@ -4,11 +4,10 @@ define([], function () {
     title: 'Upstream Changes',
     key: 'upstream-changes',
     message: 'Someone else has been working here!',
-    currentBranch: "master",
     commitData: [
       {
         "id": "e137e9b",
-        "tags": [],
+        "tags": ["master", "HEAD"],
         "message": "first commit",
         "parent": "initial",
       }
