@@ -97,13 +97,10 @@ function(_yargs, d3, demos) {
 
     render: function(container) {
       var cBox = this,
-        cBoxContainer, log, input, selector;
+        cBoxContainer, log, input;
 
       cBoxContainer = container.append('div')
         .classed('control-box', true);
-
-      selector = cBoxContainer.append('select')
-        .classed('scenario-chooser', true)
 
       demos.forEach(function (demo) {
         var opt = selector.append('option')
