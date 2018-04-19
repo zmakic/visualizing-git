@@ -744,6 +744,7 @@ function(_yargs, d3, demos) {
     },
     
     passTime: function(args, opts, cmdStr) {
+      var remote = this['originView'],
       remote.commitData.push({
         "id": "84c98fe",
         "parent": "e137e9b",
