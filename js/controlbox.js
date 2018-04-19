@@ -281,13 +281,11 @@ function(_yargs, d3, demos) {
       if (entry.toLowerCase() === 'passtime') {
         var remote = this.originView;
         var local = this.historyView;
-        remote.commitData.push({
-          "id": "84c98fe",
-          "parent": remote.commitData[remote.commitData.length - 1].id,
-          "tags": [ "master", "HEAD" ],
-        });
-        remote.moveTag("master", "84c98fe");
-        remote.renderCommits();
+        
+        this.originView.commit(null, "Other dev work");
+        
+        
+        this.info('Someone else made a commit and pushed to remote');
         
         return
       }
