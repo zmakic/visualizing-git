@@ -277,6 +277,14 @@ function(_yargs, d3, demos) {
         window.resetVis()
         return
       }
+      
+      if (entry.toLowerCase() === 'passTime') {
+        remote.commitData.push({
+          "id": "84c98fe",
+          "parent": "e137e9b",
+          "tags": [ "master", "HEAD" ],
+        });
+      }
 
       var split = entry.split(' ');
 
