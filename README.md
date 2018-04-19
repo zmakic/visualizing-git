@@ -1,7 +1,7 @@
 ﻿Visualize Git
 =============
 
-Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3. Give it a try at [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
+Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3. Give it a try at [http://zmakic.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
 
 ![By Git School](http://i.imgur.com/EiuyjJQ.png?1)
 
