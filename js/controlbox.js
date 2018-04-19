@@ -278,7 +278,7 @@ function(_yargs, d3, demos) {
         return
       }
       
-      if (entry.toLowerCase() === 'passTime') {
+      if (entry.toLowerCase() === 'passtime') {
         remote.commitData.push({
           "id": "84c98fe",
           "parent": "e137e9b",
