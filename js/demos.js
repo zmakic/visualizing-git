@@ -15,7 +15,7 @@ define([], function () {
     originData: [
       {
         "id": "e137e9b",
-        "tags": [],
+        "tags": ["master"],
         "message": "first commit",
         "parent": "initial",
       }
