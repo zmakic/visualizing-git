@@ -279,6 +279,7 @@ function(_yargs, d3, demos) {
       }
       
       if (entry.toLowerCase() === 'passtime') {
+        var remote = this['originView'];
         remote.commitData.push({
           "id": "84c98fe",
           "parent": "e137e9b",
@@ -741,15 +742,6 @@ function(_yargs, d3, demos) {
           control.info('Fast-forwarded to ' + rtBranch + '.');
         }
       }.bind(this), 750);
-    },
-    
-    passTime: function(args, opts, cmdStr) {
-      var remote = this['originView'];
-      remote.commitData.push({
-        "id": "84c98fe",
-        "parent": "e137e9b",
-        "tags": [ "master", "HEAD" ],
-      });
     },
 
     push: function(args, opts, cmdStr) {
