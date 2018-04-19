@@ -1,11 +1,11 @@
 ﻿Visualize Git
 =============
 
-Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3. Give it a try at [http://zmakic.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)!
+Git is an amazingly powerful tool — and it can be amazingly confusing. Demystify Git commands with visualizations powered by D3. Give it a try at [http://zmakic.github.io/visualizing-git/](http://zmakic.github.io/visualizing-git/)!
 
 ![By Git School](http://i.imgur.com/EiuyjJQ.png?1)
 
-[Visualize Git](http://git-school.github.io/visualizing-git/) illustrates what's going on underneath the hood when you use common Git operations. You'll see what exactly is happening to your commit graph. We aim to support all the most basic git operations, including interacting with remotes.
+[Visualize Git](http://zmakic.github.io/visualizing-git/) illustrates what's going on underneath the hood when you use common Git operations. You'll see what exactly is happening to your commit graph. We aim to support all the most basic git operations, including interacting with remotes.
 
 Here are some examples of the fun things you can do with it:
 
