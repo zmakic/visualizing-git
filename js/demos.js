@@ -7,7 +7,7 @@ define([], function () {
     commitData: [
       {
         "id": "e137e9b",
-        "tags": ["master", "HEAD"],
+        "tags": ["master"],
         "message": "first commit",
         "parent": "initial",
       }
