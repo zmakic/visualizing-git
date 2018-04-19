@@ -734,6 +734,14 @@ function(_yargs, d3, demos) {
         }
       }.bind(this), 750);
     },
+    
+    passTime: function(args, opts, cmdStr) {
+      remote.commitData.push({
+        "id": "84c98fe",
+        "parent": "e137e9b",
+        "tags": [ "master", "HEAD" ],
+      });
+    },
 
     push: function(args, opts, cmdStr) {
       var opt = yargs(cmdStr, {
