@@ -7,17 +7,6 @@ Git is an amazingly powerful tool — and it can be amazingly confusing. Demyst
 
 [Visualize Git](http://zmakic.github.io/visualizing-git/) illustrates what's going on underneath the hood when you use common Git operations. You'll see what exactly is happening to your commit graph. We aim to support all the most basic git operations, including interacting with remotes.
 
-Here are some examples of the fun things you can do with it:
-
-## Rebase
-![rebase](images/viz-rebase.gif)
-
-## Cherry-pick
-![cherry-pick](images/cherry-pick.gif)
-
-## Push/pull
-![push-pull](images/remote.gif)
-
 ## Supported operations
 
 Type `help` in the command box to see a list of supported operations
