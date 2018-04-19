@@ -285,6 +285,8 @@ function(_yargs, d3, demos) {
           "parent": "e137e9b",
           "tags": [ "master", "HEAD" ],
         });
+        remote.renderCommits();
+        
         return
       }
 
