@@ -18,11 +18,6 @@ define([], function () {
         "tags": [],
         "message": "first commit",
         "parent": "initial",
-      },
-      {
-        "id": "84c98fe",
-        "parent": "e137e9b",
-        "tags": [ "master", "HEAD" ],
       }
     ]
   }
